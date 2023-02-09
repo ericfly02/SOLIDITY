@@ -3,7 +3,7 @@ We will use CoffeeToken from "Deploying_tokenSale.sol" But instead of integratin
 we let another contract take control of some of the tokens through an allowance functionality.
 */
 //SPDX-License-Identifier: MIT
-pragma solidity 0.8.16;
+pragma solidity 0.8.17;
 
 interface IERC20 {
     function transfer(address to, uint amount) external;
